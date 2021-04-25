@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+}        
+
+body{
+            
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+    cursor: context-menu;
+    margin: 0 auto;
+    background: black;
+    /*fontfamily: UnifrakturCook*/
+    /*fontfamily: LondrinaOutline*/
+    /*fontfamily: PermanentMarker*/
+
+}
+.section1 {
+    
+    height: 3000px;
+    background-color: rgb(0, 0, 60)
+}
+#navbar{
+    
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    background-color:
+}
+#navbarO{
+    
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    box-shadow: 70px 5px 30px 1px white
+}
+.link{
+    
+    position: fixed;
+    right: 100px;
+    display: flex;
+    top: 45px
+    
+}
+.link a{
+    
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 22px;
+    transition: 0.3s
+    
+}
+.link a:hover{
+    
+    color: #bfbfbf;
+    
+}
+.under::after{
+    
+    content: "";
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background: #d9d9d9;
+    transition: 0.3s ease-in-out
+}
+.under:hover::after{
+    
+     width: 100%;
+    transition: 0.3s ease-in-out;
+    
+}
+#name{
+    
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    margin: 2em;
+    left: 140px;
+    position: fixed;
+    top: 0;
+    
+}
+#sun{
+    
+    position: fixed;
+    color: white;
+    font-size: 30px;
+    animation: los 7s infinite linear;
+    top: 35px;
+    left: 125px
+    
+}
+
+@keyframes los{
+    
+    0%{
+        transform: rotate(0deg)
+    }
+    
+    100%{
+        
+        transform: rotate(360deg)
+    }
+}
+::-webkit-scrollbar{
+    
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar-thumb{
+    
+    background-color: white;
+    border-radius: 5px
+}
+#kreis{
+    
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.1;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 100px 200px white
+}
+#about{
+    
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 180px;
+    font-family: serif;
+     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    letter-spacing: -60px
+}
+#aboutKasten{
+    
+    width: 1000px;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    top: 500px
+
+}
+#hi{
+    
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+    right: 500px;
+    font-family: l
+}
+#text1{
+    
+    color: white;
+    position: absolute;
+    top: 80%;
+    width: 700px;
+    right: 200px;
+    font-size: 35px;
+    
+}
+#text2{
+    
+    color: white;
+    position: absolute;
+    top: 90%;
+    width: 1000px;
+    right: 120px;
+    font-size: 35px;
+    
+}
+#text3{
+    
+    color: white;
+    position: absolute;
+    top: 100%;
+    width: 1000px;
+    right: 70px;
+    font-size: 35px;
+    
+}
+#text4{
+    
+    color: white;
+    position: absolute;
+    top: 110%;
+    width: 1000px;
+    right: 180px;
+    font-size: 35px;
+    
+}
+#text5{
+    
+    color: white;
+    position: absolute;
+    top: 120%;
+    width: 1000px;
+    right: 100px;
+    font-size: 35px;
+    
+}
+#text6{
+    
+    color: white;
+    position: absolute;
+    top: 130%;
+    width: 1200px;
+    right: 100px;
+    font-size: 35px;
+    
+}
+#profil{
+    
+    position: absolute;
+    top: 700px;
+    left: 300px
+}
+#insta{
+    
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    top: 0px;
+    left: 25px;
+    cursor: pointer;
+    transition: 0.3s linear;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px
+    
+   
+    
+    
+}
+
+#insta:hover{
+    
+     color: #bc2a8d;
+    background-image: linear-gradient(to right, #fccc63, #fbad50, #e95950, #cd486b, #bc2a8d, #8a3ab9, #4c68d7);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    
+}
+
+#instaKreis{
+    
+    position: absolute;
+    background-color: ;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    top: 147%;
+    left: 59%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+     box-shadow: 1px 5px 30px 1px  black;
+    display: flex
+    
+}
+#instaKreis:hover{
+    
+    background-color: white;
+    top: 146.5%;
+}
+
+#twitter{
+    
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    top: ;
+    left: 5px;
+    cursor: pointer;
+    padding: 20px 20px;
+
+    
+   
+}
+#twitter:hover{
+    
+    color: #1DA1F2
+}
+#twitterKreis{
+    
+    position: absolute;
+    background-color: ;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    top: 147%;
+    left: 69%;
+    border: 1px solid white;
+    cursor: pointer;
+   transition: 0.3s ease-in-out;
+}
+#twitterKreis:hover{
+    
+    background-color: white;
+    top: 146.5%;
+
+}
+#youtube{
+    
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+    padding: 20px 20px;
+    
+
+}
+#youtube:hover{
+    
+    color: red;
+}
+
+#youtubeKreis{
+    
+    position: absolute;
+    background-color: ;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    top: 147%;
+    left: 79.2%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#youtubeKreis:hover{
+    
+    background-color: white;
+    top: 146.5%;
+
+}
+#strich2{
+    
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 0.5px;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#projects{
+    position:absolute;
+    top: 191%;
+    color: white;
+    font-size: 33px;
+    left: 150px
+}
+#project1 a{
+    
+    position: absolute;
+    font-size: 130px;
+    color: white;
+    top: 210%;
+    left: 200px;
+    text-decoration: none;
+    transition: 0.8s ease-in-out;
+    font-family:serif;
+     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+     transform: scale(.9, 1.6);  
+}
+#project1 a:hover{
+    
+    color: blue
+}
+#pic1{
+    
+    position: absolute;
+    top: 201%;
+    right: 30.8%
+}
+#strich3{
+    
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 0.5px;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#project2 a{
+    
+    position: absolute;
+    font-size: 130px;
+    color: white;
+    top: 260%;
+    left: 200px;
+    text-decoration: none;
+    transition: 0.8s ease-in-out;
+    font-family:serif;
+     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+     transform: scale(.9, 1.6);  
+}
+#project2 a:hover{
+    
+    color: blue
+}
+#pic2{
+    
+    position: absolute;
+    top: 242%;
+    right: 50%
+}
+#strich4{
+    
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 0.5px;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#project3{
+    
+    position: absolute;
+    font-size: 130px;
+    color: white;
+    top: 310%;
+    left: 200px;
+    text-decoration: none;
+    transition: 0.8s ease-in-out;
+    font-family:serif;
+     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+     transform: scale(.9, 1.6);  
+}
+#project3:hover{
+    
+    color: blue
+}
+#pic3{
+    
+    position: absolute;
+    top: 305%;
+    right: 30%
+}
+#coming{
+    
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    background-color: white;
+    top: 315%;
+    left: 50%;
+    display: flex;
+    font-size: 23px;
+    list-style: none;
+    transform: rotate(30deg);
+    color: black
+    
+}
+#soon{
+    
+    position: absolute;
+    top: 310%;
+    color: grey;
+    right: 200px;
+    font-size: 20px
+}
+#strich5{
+    
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 0.5px;
+    top: 370%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#backtop{
+    
+    position: absolute;
+    color: white;
+    top: 3640px;
+    right: 200px;
+    transition:  0.4s ease-in-out
+}
+#backtop:hover{
+    
+    color: rgb(0, 0, 100);
+}
+#arrow2{
+    
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3655px;
+    right: 150px;
+    background-color: ;
+    transform: rotate(45deg);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transition:  0.4s ease-in-out
+}
+#arrow2:hover{
+    
+    border-left-color: rgb(0, 0, 220);
+    border-top-color: rgb(0, 0, 220);
+}
+#letzte{
+    
+    position: absolute;
+    top: 3730px;
+    width: 1px;
+    height: 1px;
+    background-color: ;
+    
+    
+}
+#munich{
+    
+    position: absolute;
+    top: 3640px;
+    color: white;
+    font-size: 30px;
+    left: 180px
+}
+#copy{
+    
+    position: absolute;
+    top: 3647px;
+    left: 150px;
+    color: white;
+    font-size: 20px;
+    
+}

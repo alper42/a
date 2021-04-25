@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+}        
+
+body{
+            
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+    cursor: context-menu;
+    margin: 0 auto;
+    background: black;
+    /*fontfamily: UnifrakturCook*/
+    /*fontfamily: LondrinaOutline*/
+    /*fontfamily: PermanentMarker*/
+
+}
+.section1 {
+    
+    height: 3000px;
+    background-color: rgb(0, 0, 60)
+}
+#navbar{
+    
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    background-color:
+}
+#navbarO{
+    
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    box-shadow: 70px 5px 30px 1px white
+}
+.link{
+    
+    position: fixed;
+    right: 100px;
+    display: flex;
+    top: 45px
+    
+}
+.link a{
+    
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 22px;
+    transition: 0.3s
+    
+}
+.link a:hover{
+    
+    color: #bfbfbf;
+    
+}
+.under::after{
+    
+    content: "";
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background: #d9d9d9;
+    transition: 0.3s ease-in-out
+}
+.under:hover::after{
+    
+     width: 100%;
+    transition: 0.3s ease-in-out;
+    
+}
+#name{
+    
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    margin: 2em;
+    left: 140px;
+    position: fixed;
+    top: 0;
+    
+}
+#sun{
+    
+    position: fixed;
+    color: white;
+    font-size: 30px;
+    animation: los 7s infinite linear;
+    top: 35px;
+    left: 125px
+    
+}
+
+@keyframes los{
+    
+    0%{
+        transform: rotate(0deg)
+    }
+    
+    100%{
+        
+        transform: rotate(360deg)
+    }
+}
+::-webkit-scrollbar{
+    
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar-thumb{
+    
+    background-color: white;
+    border-radius: 5px
+}
+#kreis{
+    
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.1;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 100px 200px white
+}
+.word{
+    
+    color: white;
+    position: absolute;
+    font-size: 120px;
+    font-family:   'Montserrat Alternates', sans-serif;
+   
+    
+}
+#word1{
+    
+    top: 150px;
+    position: absolute;
+    left: 300px
+}
+#bild1{
+    
+    position: absolute;
+    left: 1700px;
+    top: 200px
+}
+#word2{
+    
+    top: 400px;
+    position: absolute;
+    left: 300px
+}
+#word6{
+    
+    top: 400px;
+    position: absolute;
+    left: 900px
+}
+#word3{
+    
+    top: 400px;
+    position: absolute;
+    left: 1100px;;
+    color: rgb(0, 0, 60)
+}
+#kasten{
+    
+    position: absolute;
+    width: 1300px;
+    height: 220px;
+    background-color: white;
+    top: 440px;
+    left: 1100px
+}
+#word4{
+    
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-family: serif
+}
+#word5{
+    
+    position: absolute;
+    top: 685px;
+    left: 1200px
+}
+#bild3{
+    
+    position: absolute;
+    top: 440px;
+    left: 150px
+}
+#text{
+    
+    position: absolute;
+    top: 130%;
+    width: 900px;
+    color: white;
+    right: 300px;
+}
+#aboutLink a{
+    
+    position: absolute;
+    width: 260px;
+    height: 1^00px;
+    top: 160%;
+    left: 1500px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-size: 40px
+}
+#aboutLink a:hover{
+    
+    color: rgb(0, 0, 100);
+}
+#arrowkreis{
+    
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: -20px;
+    left: -110px;
+    transition: 1s;
+    
+    
+}
+#arrowkreis:hover{
+    
+    border-color:rgb(0, 0, 100);
+    
+}
+#arrow3{
+    
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 33px;
+    left: 27px;
+    background-color: ;
+    transform: rotate(135deg);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition:  0.4s ease-in-out
+}
+
+#strich2{
+    
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 0.5px;
+    top: 205%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#projects{
+    position:absolute;
+    top: 198.5%;
+    color: white;
+    font-size: 33px;
+    left: 150px
+}
+#pic1{
+    
+    position: absolute;
+    top: 230%;
+    left: 150px
+}
+#project1{
+    
+    position: absolute;
+    top: 260%;
+    color: white;
+    font-size: 80px;
+    left: 700px;
+    transition: 0.7s ease-in-out
+    
+}
+#strich3{
+    
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    height: 2px;
+    top: 280%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+#project1:hover{
+    
+    color: rgb(0, 0, 100);
+}
+#card1{
+    
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    top: 290%;
+    background:  rgba(225, 255, 255, 0.1);
+    border-radius: 10px;
+    left: 1200px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0,5);
+    backdrop-filter: blur(15px);
+    justify-content: space-around;
+    display: flex;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+#card1:hover{
+    
+    
+    position: absolute;
+    display: flex;
+    
+}
+
+.zahl{
+    
+    position: absolute;
+    left: 20px;
+    font-size: 100px;
+    opacity: 0.1;
+    color: white;
+    top: 20px
+}
+#über{
+    
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  white;
+    
+}
+.textcard{
+    
+    position: absolute;
+    top: 42%;
+    width: 280px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    
+}
+#page1 a{
+    
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 2.3;
+    bottom: 50px;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    font-size: 18px
+}
+#kreis5{
+    
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    top: 281%;
+    left: 53%;
+    border-radius: 50%;
+    
+}
+
+#card2{
+    
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    top: 460%;
+    background:  rgba(225, 255, 255, 0.1);
+    border-radius: 10px;
+    left: 1300px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0,5);
+    backdrop-filter: blur(15px);
+    justify-content: space-around;
+    display: flex;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+#card2:hover{
+    
+    
+    position: absolute;
+    display: flex;
+    
+}
+#page2 a{
+    
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 2.3;
+    bottom: 50px;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    font-size: 18px
+}
+#pic2{
+    
+    position: absolute;
+    top: 400%;
+    right: 150px
+}
+#project2{
+    
+    position: absolute;
+    top: 430%;
+    color: white;
+    font-size: 80px;
+    right: 550px;
+    transition: 0.7s ease-in-out
+    
+}
+#strich4{
+    
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    height: 2px;
+    top: 450%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+#project2:hover{
+    
+    color: rgb(0, 0, 100);
+}
+#kreis6{
+    
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #ff4d4d;
+    top: 452%;
+    left: 43%;
+    border-radius: 50%;
+    
+}
+
+
+#card3{
+    
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    top: 675%;
+    background:  rgba(225, 255, 255, 0.1);
+    border-radius: 10px;
+    left: 1300px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0,5);
+    backdrop-filter: blur(15px);
+    justify-content: space-around;
+    display: flex;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+#card3:hover{
+    
+    
+    position: absolute;
+    display: flex;
+    
+}
+#page3 a{
+    
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 2.3;
+    bottom: 50px;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    font-size: 18px
+}
+#pic3{
+    
+    position: absolute;
+    top: 620%;
+    left: 150px
+}
+#project3{
+    
+    position: absolute;
+    top: 645%;
+    color: white;
+    font-size: 80px;
+    left: 800px;
+    transition: 0.7s ease-in-out
+    
+}
+#project3:hover{
+    
+    color: rgb(0, 0, 100);
+}
+#strich5{
+    
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    height: 2px;
+    top: 665%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+#project2:hover{
+    
+    color: rgb(0, 0, 100);
+}
+#kreis7{
+    
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: springgreen;
+    top: 670%;
+    left: 57%;
+    border-radius: 50%;
+    
+}
+#coming{
+    
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    background-color: white;
+    top: 651%;
+    left: 58%;
+    display: flex;
+    font-size: 23px;
+    list-style: none;
+    transform: rotate(30deg);
+    color: black
+    
+}
+
+#workdiv{
+    
+    position: absolute;
+    top: 187%;
+    background-color: transparent;
+    width: 100px;
+    height: 100px
+}
+#strich6{
+    
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 0.5px;
+    top: 750%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+#backtop{
+    
+    position: absolute;
+    color: white;
+    top: 7310px;
+    right: 200px;
+    transition:  0.4s ease-in-out
+}
+#backtop:hover{
+    
+    color: rgb(0, 0, 100);
+}
+#arrow2{
+    
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 756%;
+    right: 150px;
+    background-color: ;
+    transform: rotate(45deg);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transition:  0.4s ease-in-out
+}
+#arrow2:hover{
+    
+    border-left-color: rgb(0, 0, 220);
+    border-top-color: rgb(0, 0, 220);
+}
+#letzte{
+    
+    position: absolute;
+    top: 7400px;
+    width: 1px;
+    height: 1px;
+    background-color: ;
+    
+    
+}
+#munich{
+    
+    position: absolute;
+    top: 7305px;
+    color: white;
+    font-size: 30px;
+    left: 180px
+}
+#copy{
+    
+    position: absolute;
+    top: 7313px;
+    left: 150px;
+    color: white;
+    font-size: 20px;
+    
+}
