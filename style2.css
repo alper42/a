@@ -223,10 +223,19 @@ body{
     font-size: 35px;
     
 }
+#profilSka{
+    
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: ;
+    left: 1200px;
+    top: 695px
+}
 #profil{
     
     position: absolute;
-    top: 700px;
+    top: 800px;
     left: 300px
 }
 #insta{
@@ -269,7 +278,6 @@ body{
     border: 1px solid white;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-     box-shadow: 1px 5px 30px 1px  black;
     display: flex
     
 }
