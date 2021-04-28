@@ -284,9 +284,17 @@ body{
 #instaKreis:hover{
     
     background-color: white;
-    top: 146.5%;
+    width: 200px
 }
-
+#instaSchrift{
+    
+    position: absolute;
+    top: 1460px;
+    color: #000022;
+    right: 865px;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
 #twitter{
     
     position: absolute;
@@ -308,7 +316,7 @@ body{
     
     position: absolute;
     background-color: ;
-    border-radius: 50%;
+    border-radius: 50px;
     width: 90px;
     height: 90px;
     top: 147%;
@@ -320,8 +328,17 @@ body{
 #twitterKreis:hover{
     
     background-color: white;
-    top: 146.5%;
+    width: 200px
 
+}
+#twitterSchrift{
+    
+    position: absolute;
+    top: 1460px;
+    color: #000022;
+    right: 620px;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
 }
 #youtube{
     
@@ -342,7 +359,7 @@ body{
     
     position: absolute;
     background-color: ;
-    border-radius: 50%;
+    border-radius: 50px;
     width: 90px;
     height: 90px;
     top: 147%;
@@ -355,8 +372,17 @@ body{
 #youtubeKreis:hover{
     
     background-color: white;
-    top: 146.5%;
+    width: 200px
 
+}
+#youtubeSchrift{
+    
+    position: absolute;
+    top: 1460px;
+    color: #000022;
+    right: 350px;
+    font-size: 23px;
+    font-family: 'Karla', sans-serif;
 }
 #strich2{
     
