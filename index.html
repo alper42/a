@@ -101,6 +101,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@250&display=swap" rel="stylesheet">
     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    
+    
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         
@@ -145,12 +150,12 @@
 
             <div id="bild1" data-aos="fade-left">
             
-                <img src="bild2.jpg" width="500">
+                <img src="bild2.jpg">
             
             </div>
              <div id="bild3" data-aos="fade-right">
             
-                <img src="bild3.jpg" width="500">
+                <img src="bild3.jpg">
             
             </div>
             <div id="word2" data-aos="fade-up">
@@ -407,11 +412,7 @@
         
         <div id="coming" data-aos="zoom-in-up" >
         
-            <ul>
-            
-                <li>COMING SOON</li>
-        
-            </ul>
+           <p>COMIG SOON</p>
         
         
         </div>
@@ -527,18 +528,21 @@
                 <h1>Alper Caliskan</h1>
             
             </div>
-            <ul class="link">
+            <ul id="link">
             
             
-                <a href="#workdiv" class="under">
-                    <li>Work</li>
-                </a>
-                <a href="about.html" class="under">
-                    <li>About</li>
-                </a>
+                <li><a href="#workdiv" id="under">Work</a></li>
+                <li><a href="about.html" id="under">About</a></li>
                 
             </ul>
-    
+            
+            <div id="menuIcon" onclick="togglemenu()">
+            
+                <div id="menuStrich1"></div>
+            
+                <div id="menuStrich2"></div>
+            
+            </div>
         </div>
     </div>
     
@@ -581,7 +585,23 @@
             $('<a href="https://alper42.github.io/ac" target="blank"></a>')[0].click();    
         });
         
-    
+        
+        
+        var link = document.getElementById("link");
+        
+        link.style.maxHeight = "0px";
+        
+        function togglemenu(){
+            
+            if (link.style.maxHeight == "0px")
+                {
+                    link.style.maxHeight = "600px";
+                }
+            else
+                {
+                    link.style.maxHeight = "0px";
+                }
+        }
         
         
     </script>
